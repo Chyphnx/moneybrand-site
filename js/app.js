@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",()=>{console.log("[MoneyBrand] Frontend loaded");});
+document.addEventListener('DOMContentLoaded',()=>console.log('[MoneyBrand] UI ready'));
