@@ -1,1 +1,1 @@
-cd ~/moneybrand-site && ./deploy-moneybrand.sh
+mbdeploy   # = git add/commit/push main
