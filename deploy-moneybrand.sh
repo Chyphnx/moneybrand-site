@@ -9,7 +9,7 @@ echo "[MoneyBrand] ===== Deploy start ====="
 cd "$PROJ"
 
 echo "[MoneyBrand] Pulling latest from origin/main..."
-git pull --rebase origin main
+git pull --rebase --autostash origin main
 
 # Ensure data folder exists
 mkdir -p data
