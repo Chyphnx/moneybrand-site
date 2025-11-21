@@ -1,1 +1,1 @@
-PROJ="$HOME/moneybrand-site" && cd "$PROJ" && mkdir -p data && pbpaste > data/products.json && git add data/products.json && git commit -m "MoneyBrand: update products catalog" && git push origin main && echo "[MoneyBrand] Catalog live on moneybrandclothing.com"
+cd ~/moneybrand-site && ./deploy-moneybrand.sh
